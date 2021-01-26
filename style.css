@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    font-size: 2rem;
+    padding: 1rem;
+    /* background-color: blueviolet; */
+}
+
+.portal{
+   background-image: url("/pexels-cottonbro-5054213\ \(2\).jpg"); 
+   height: 90vh;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-size: 2rem;
+   color: blueviolet;
+}
+
+button{
+    padding: 1rem;
+    background-color: rgb(21, 140, 145);
+    outline: none;
+    border: none;
+}
+
+.computer{
+    height: 60rem;
+ width: 100%;
+ /* width: 50vw; */
+}
+.info-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.computer-holder{
+    flex-grow: 1;
+    flex-shrink: 1;
+ flex-basis: 60rem;
+ 
+}
+.info-text{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
